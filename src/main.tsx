@@ -7,7 +7,7 @@ import { DataProvider } from './contexts/DataProvider.tsx'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <BrowserRouter basename='/ultimate-forms/'>
+    <BrowserRouter basename='/ultimate-forms'>
       <DataProvider>
         <App />
       </DataProvider>
