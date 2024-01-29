@@ -13,10 +13,10 @@ function App() {
         The Ultimate Form
       </header>
       <Routes>
-        <Route path='/' element={<CustomStep1 />} />
-        <Route path='step2' element={<Step2 />} />
-        <Route path='step3' element={<Step3 />} />
-        <Route path='result' element={<Result />} />
+        <Route path='/ultimate-forms/' element={<CustomStep1 />} />
+        <Route path='/ultimate-forms/step2' element={<Step2 />} />
+        <Route path='/ultimate-forms/step3' element={<Step3 />} />
+        <Route path='/ultimate-forms/result' element={<Result />} />
       </Routes>
     </>
   )
